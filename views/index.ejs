@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2><%= name %></h2>
+    <form action="payment_gateway/payumoney" method="POST">
+        <input type="hidden" name="txnid" value="gt123456" />
+<input type="hidden" name="productinfo" value="iPhone" />
+<input type="hidden" name="amount" value="10" />
+<input type="hidden" name="email" value="test@gmail.com" />
+<input type="hidden" name="firstname" value="Ashish" />
+<!-- <input type="hidden" name="lastname" value="Kumar" /> -->
+<!-- <input type="hidden" name="surl" value="https://apiplayground-response.herokuapp.com/" /> -->
+<!-- <input type="hidden" name="furl" value="https://apiplayground-response.herokuapp.com/" /> -->
+<!-- <input type="hidden" name="phone" value="9988776655” /> -->
+<!-- <input type="hidden" name="hash" value="FZjvZ6WYnBD8pDZusEWiBLGftBry0PD2" /> -->
+ <!-- <input type="hidden" name="service_provider" 
+         value="payu_paisa"/>
+        <input type="hidden" class="product" name="productinfo" 
+         value="educational purpose"/> -->
+         
+         <input type="submit" value="Pay"/>
+        </form>
+</body>
+</html>
