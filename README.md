@@ -96,3 +96,38 @@ Start the server
 ## Front-End Project Clone link
 
 https://github.com/kajalblog/PayUMoney-In-Angular.git
+## Run Angular Project Locally
+
+Clone the project
+
+```bash
+  https://github.com/kajalblog/PayUMoney-In-Angular.git
+```
+
+Go to the project directory
+
+```bash
+  cd PayUMoney
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  ng serve
+```
+## Roadmap for Angular 
+
+- Created service file for making connection with node api
+
+- In app.ts file we posted all credentials in hidden format 
+
+
+##Demo Payment Link
+
+https://pmny.in/4I3Zp5aKtCeb
