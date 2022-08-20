@@ -4,6 +4,7 @@
 
 It allows online businesses to accept and process payments through payment methods that can be integrated with web and mobile applications
 
+-[PayU Money Document](https://payu.in/payment-gateway/)
     
 ## Requirements
 
@@ -62,9 +63,9 @@ Start the server
 
 ## Roadmap
 
-- Create serve for run the node project (app.js file)
+- Created serve for run the node project (app.js file)
 
-- Create router for API methods(router.js- here we create post method)
+- Created router for API methods(router.js- here we create post method)
 
 - Import router in app.js
 
@@ -72,9 +73,26 @@ Start the server
 
 - path of post method (http://localhost:4800/check/payment_getway/payumoney).
 
+-{
+ 
+  "txnid":"1452563",
+  "productinfo":"testing",
+  "amount":500,
+  "orderNote":"testing",
+  "first_name":"Rushikesh",
+  "email":"Rushikesh@gmail.com",
+  "phone":"8954527856"
+ }
+
 - For hash we need to install jssha package (It generate specifice SHA hash string)
 
+- hash value is nothing but generated string values based on all creadentials we have passed for payments
 
- 
+- Also we can create view part(If needed) in node js using ejs Template Engine or
+
+- We acn implement UI in Front-End(Angular)
 
 
+## Front-End Project Clone link
+
+https://github.com/kajalblog/PayUMoney-In-Angular.git
